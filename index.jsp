@@ -1265,7 +1265,7 @@ out.println("<html><head><title>jspspy</title><style type=\"text/css\">"+
 "        <input type=\"hidden\" name=\"o\" value=\"login\">"+
 "        <input type=\"submit\" value=\"Login\"><br/>"+
 "<!--<span style=\"font:11px Verdana;\">Copyright &copy; 2010 NinTy </span><a href=\"http://www.forjj.com\" target=\"_blank\">www.Forjj.com</a>--></p>"+
-"    </form><span style='font-weight:bold;color:red;font-size:12px'>CY... I Love You. I Do! by n1nty 2010/8/18</span></body></html>");
+"    </form><span style='font-weight:bold;color:red;font-size:12px'>CY... I Love You. I Do! by n1nty 2010/8/18</span><br/><span style='font-size:11px;color:#666;'>Contact: Tel./E-mail: +1-555-0123 / contact@ninty.com</span></body></html>");
 } catch (Exception e) {
 
 throw e ;
@@ -1552,7 +1552,7 @@ public boolean doBefore() {return false;}
 public boolean doAfter() {return false;}
 public void invoke(HttpServletRequest request,HttpServletResponse response,HttpSession JSession) throws Exception{
 try {
-response.getWriter().println("<div style=\"padding:10px;border-bottom:1px solid #fff;border-top:1px solid #ddd;background:#eee;\">Copyright (C) 2010 <a href=\"http://www.forjj.com\" target=\"_blank\">http://www.Forjj.com/</a>&nbsp;&nbsp;<a target=\"_blank\" href=\"http://www.t00ls.net/\">[T00ls.Net]</a> All Rights Reserved."+
+response.getWriter().println("<div style=\"padding:10px;border-bottom:1px solid #fff;border-top:1px solid #ddd;background:#eee;\">Copyright (C) 2010 <a href=\"http://www.forjj.com\" target=\"_blank\">http://www.Forjj.com/</a>&nbsp;&nbsp;<a target=\"_blank\" href=\"http://www.t00ls.net/\">[T00ls.Net]</a> All Rights Reserved.<br/>Tel.: +1-555-0123 | E-mail: contact@ninty.com"+
 "</div>");
 } catch (Exception e) {
 
